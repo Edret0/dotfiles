@@ -1,0 +1,9 @@
+[Unit]
+Description=Run my startup script
+
+[Service]
+ExecStart=/home/edret/scripts/run.sh
+
+[Install]
+WantedBy=default.target
+
